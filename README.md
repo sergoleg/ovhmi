@@ -1,3 +1,3 @@
 # ovhmi
  
-Simulation of the Ovation ((Westinghouse, Emerson) human-machine interface (HMI)
+Simulation of the Ovation (Westinghouse, Emerson) human-machine interface (HMI).
