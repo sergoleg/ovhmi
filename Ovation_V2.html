@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+
+<meta name="copyright" content="Copyright � 2021 Oleg Sergeev (sergoleg@gmail.com).">
+
+<link rel="image_src" href="./V2/Westinghouse-Logo.gif" />
+
+<link rel="shortcut icon" type="image/gif" href="./V2/Westinghouse-Logo.gif">
+
+<title>Ovation Process Diagram SSW</title>
+
+<link type="text/css" href="V2/o.diag.css" rel="stylesheet"/>
+
+<script src="./V2/pixi.min.js"></script>
+<script src="./V2/filter-drop-shadow.js"></script>
+<script src="./V2/filter-kawase-blur.js"></script>
+
+<script src="./V2/o.alarm_commands.js"></script>
+<script src="./V2/o.utils.js"></script>
+
+<script src="./V2/o.alarm_sim_wrap.js"></script>
+<script src="./V2/o.alarm_main.js"></script>
+
+<!--
+<script src="./V2/rws.js"></script>
+<script src="./V2/o.sim_rws.js"></script>
+-->
+
+<script src="./V2/o.alarm_analog.js"></script>
+<script src="./V2/o.alarm_digital.js"></script>
+
+</head>
+<body>
+
+	<canvas class="diagram" ></canvas>
+
+<!-- -->
+	<script type="text/javascript">
+
+		// Удаление баннера PIXI при запуске
+		PIXI.utils.skipHello();
+		// Добавление баннера WSC
+		console.log('Copyright � 2021 Oleg Sergeev (sergoleg@gmail.com). v2.0');
+/*
+		// Инициализация связи с SimServer.exe при открытии страницы
+		const PORT = 8080;
+		const URL = `ws://127.0.0.1:${PORT}`;
+		var SimServerWS = new SimServerWebSocket(URL, { debug: false, userName: 'webClient'});
+*/
+		// Инициализация сцены при открытии страницы
+		initializeStage();
+		AppStageScale();
+		// Для установки параметров приложения по Ovation умолчанию
+		// 1 - получить объект параметров приложения Ovation из URL
+		QueryArgs = getUrlQueryArgs();
+		// 2 - обновить URL приложения Ovation из объекта
+		setUrlQueryArgs(QueryArgs);
+		// Запуск игрового цикла
+		start_mainLoop();
+
+	</script>
+
+</body>
+</html>
