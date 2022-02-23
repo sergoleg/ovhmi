@@ -1,6 +1,6 @@
 # ovhmi
  
-Simulation of the Ovation (Westinghouse, Emerson) human-machine interface (JavaScript, Pixi.js, WebGL).
+Simulation of the Ovation (Westinghouse, Emerson) human-machine interface (JavaScript, Pixi.js).
 
 ![example 1](/2070.jpg)
 ![example 1](/3000.jpg)
