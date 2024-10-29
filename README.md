@@ -1,5 +1,7 @@
 # ovhmi
-Simulation of the Ovation (Westinghouse, Emerson) human-machine interface (JavaScript, Pixi.js).
+Simulation of the HMI/SCADA in the Web browser.
+
+
 
 The HMI/SCADA local application transfer project of the non-nuclear thermal power plant training simulator to the Web environment.
 
