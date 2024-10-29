@@ -1,5 +1,5 @@
 # ovhmi
-Simulation of the HMI/SCADA in the Web browser.
+Simulation of the HMI/SCADA in the Web browser
 
 
 
