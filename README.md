@@ -10,6 +10,7 @@ Some applications are designed in the form of Docker images (Linux, Windows, tra
 
 Initially, ActionScript were used in similar projects (until 2011), then the Raphael JS JavaScript framework (SVG, until 2019). 
 
+
 ![example 1](/2070.jpg)
 ![example 1](/3000.jpg)
 ![example 1](/3260.jpg)
