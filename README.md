@@ -1,4 +1,4 @@
-# Simulation of the HMI/SCADA in the Web browser
+# Simulation of the HMI/SCADA (JavaScript, Pixi.js)
 
 The HMI/SCADA local application transfer project of the non-nuclear thermal power plant training simulator to the Web environment.
 
